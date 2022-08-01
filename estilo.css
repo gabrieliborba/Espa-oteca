@@ -1,61 +1,95 @@
-
-footer {
-    position: absolute;
-    bottom: 1;
-    background-color: rgb(0, 0, 0);
-    color: beige;
-    width: 100%;
-    height: 50 px;
-    text-align: center;
-
+.rodape {
+  position: relative;
+  top: 16px;
+  background-color: rgb(204, 204, 204);
+  color: rgb(250, 250, 250);
+  width: 100%;
+  text-align: center;
+  flex-wrap: wrap;
 }
 
-.espacoteca {
-  font-size: 25px;
+div .carousel-inner {
+  background-color: black;
+}
+
+.img1 {
+  position: relative;
+  opacity: 82%;
+  /* Vê o texto mais claramente acima do background */
+}
+
+.img2 {
+  position: relative;
+  opacity: 82%;
+  /* Vê o texto mais claramente acima do background */
+}
+
+.img3 {
+  position: relative;
+  opacity: 82%;
+  /* Vê o texto mais claramente acima do background */
+}
+
+.botoes {
+  position: relative;
+  bottom: 3153px;
+}
+
+#espaco-teca {
+  position: relative;
+  font-size: 32px;
   color: #491577;
   font-family: fantasy;
+  width: 9%;
+  left: 46%;
+  bottom: 166px;
 }
 
+#logo {
+  position: relative;
+  right: 15%;
+  top: 210px;
+  width: 20%;
+  height: 20%;
+}
 
+body {
+  background-color: #ffffff;
+  color: black;
+}
 
-  body{
-      background-color: #ffffff;
-      color: black;
-     
-  }
+#navbarNav {
+  color: black;
+}
 
-  #navbarNav {
-    color: black;
-  }
-  h2
-  {
-        color: black;
-  }
+h2 {
+  color: black;
+}
 
-  main {
-     width: 940px;
-     margin: 0 auto; 
-  }
+main {
+  width: 940px;
+  margin: 0 auto;
+}
 
-  form {
-    margin: 40px 0 ;
+form {
+  margin: 40px 0;
+}
 
-  }
+form label,
+form legend {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
 
-  form label, form legend  {
-      display: block;
-      font-size: 20px;
-      margin: 0 0 10px;
-  }
-  
 .input-padrao {
-    display: block;
-    margin: 0 0 20px;
-    padding: 10px 25px;
-    width: 50%;
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
 }
 
-.checkbox{
+.checkbox {
   margin-right: 20px 0;
 }
 
@@ -72,23 +106,357 @@ footer {
   cursor: pointer;
 }
 
- .enviar:hover {
-   background: rgb(255, 200, 0);
-   transform: scale(1.2);
-   transform: rotate(1deg);
- }
+.enviar:hover {
+  background: rgb(255, 200, 0);
+  transform: scale(1.2);
+  transform: rotate(1deg);
+}
 
- .cadastro {
-   color: rgb(0, 0, 0);
-   font-family: Arial, Helvetica, sans-serif;
- }
+.cadastro {
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  left: 30%;
+  bottom: 36px;
+}
 
- .login {
-   color: rgb(0, 0, 0);
-   font-family: Arial, Helvetica, sans-serif;
-   
- }
+.cadastro :hover {
+  cursor: pointer;
+  transform: scale(1.0);
+}
+
+.required:after {
+  content: " *";
+  color: red;
+}
+
+.login {
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.login :hover {
+  cursor: pointer;
+  transform: scale(1.0);
+}
+
+#fundo-body {
+  background: linear-gradient(#a109afb0, #924f9a, #ffc107d1);
+}
+
+#faça-login {
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  left: 30%;
+  bottom: 36px;
+}
+
+#wpp {
+  position: relative;
+  left: 23%;
+  top: 143px;
+  font-size: 30%;
+}
+
+#p-wpp {
+  position: relative;
+  left: 74%;
+  top: 141px;
+  color: white;
+  width: 4%;
+}
+
+#insta {
+  position: relative;
+  left: 33%;
+  top: 2px;
+}
+
+#p-insta {
+  position: relative;
+  left: 81%;
+  top: 1px;
+  color: white;
+  width: 4%;
+
+}
+
+#face {
+  position: relative;
+  left: 40%;
+  bottom: 138px;
+}
+
+#p-face {
+  position: relative;
+  left: 88%;
+  bottom: 139px;
+  color: white;
+  width: 4%;
+}
+
+#wpp :hover {
+  transform: scale(1.2);
+}
+
+#insta :hover {
+  transform: scale(1.2);
+}
+
+#face :hover {
+  transform: scale(1.2);
+}
+
+#fundo-login {
+  background: linear-gradient(#a109afb0, #924f9a, #ffc107d1);
+}
+
+.img-1 {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  top: 46px;
+  right: 2%;
+}
+
+.logo-espaco {
+  position: relative;
+  width: 10%;
+  height: 10%;
+  top: 107px;
+  right: 7%;
+}
+
+#site {
+  position: relative;
+  bottom: 131px;
+  font-size: larger;
+  left: 45%;
+  width: 11%;
+}
+
+#tel {
+  position: relative;
+  font-size: 20px;
+  bottom: 150px;
+  left: 44%;
+  font-family: serif;
+  width: 10%;
+}
+
+.fundo1 {
+  background-color: rgb(201, 137, 239);
+  position: relative;
+  top: 0px;
+  color: beige;
+  width: 100%;
+  text-align: center;
+  height: 614px;
+}
+
+.fundo2 {
+  background-color: rgb(104, 63, 141);
+  position: relative;
+  top: 0px;
+  color: beige;
+  width: 100%;
+  text-align: center;
+  height: 1065px;
+}
+
+.fundo3 {
+  background-color: rgb(245, 199, 92);
+  position: relative;
+  top: 0px;
+  color: beige;
+  width: 100%;
+  text-align: center;
+  height: 802px;
+}
+
+#p-fundo1 {
+  position: relative;
+  font-size: 47px;
+  right: 33%;
+  color: black;
+  font-family: serif;
+  top: 20px;
+
+}
+
+#p-fundo2 {
+  position: relative;
+  font-size: 46px;
+  top: 20px;
+  right: 2%;
+
+}
+
+#p-fundo3 {
+  position: relative;
+  color: black;
+  font-size: 29px;
+  font-weight: bold;
+  top: 62px;
+  right: 78%;
+}
+
+#foto-sobre {
+  position: relative;
+  width: 557px;
+  height: 304px;
+  right: 33%;
+  top: 49px;
+  border: solid;
+  border-color: #000;
+  border-width: 4.15px;
+}
+
+#mapa {
+  position: relative;
+  width: 80%;
+  height: 380px;
+  top: 40px;
+  border-radius: 15px;
+  border: 3px solid black;
+}
+
+.borda-mapa {
+  position: relative;
+  width: 1529px;
+  height: 384px;
+  border: 5px solid #000;
+  border-radius: 16px;
+  display: flex;
+  bottom: 940px;
+  float: left;
+  left: 187px;
+}
+
+#bolinha {
+  position: relative;
+  width: 439px;
+  top: 149px;
+  right: 31%;
+  border: 4px solid rgb(244, 198, 92);
+
+}
 
 
 
+#p-bolinha {
+  position: relative;
+  font-size: 35px;
+  font-family: -webkit-pictograph;
+  right: 613px;
+  top: 158px;
+}
 
+
+#esquiva {
+  position: relative;
+  width: 440px;
+  bottom: 215px;
+  right: 4%;
+  border: 4px solid rgb(244, 198, 92);
+}
+
+
+
+#p-esquiva {
+  position: relative;
+  font-size: 35px;
+  font-family: -webkit-pictograph;
+  right: 83px;
+  bottom: 206px;
+}
+
+#piscina {
+  position: relative;
+  width: 440px;
+  height: 296px;
+  bottom: 579px;
+  left: 24%;
+  border: 4px solid rgb(244, 198, 92);
+}
+
+
+#p-piscina {
+  position: relative;
+  font-size: 35px;
+  font-family: -webkit-pictograph;
+  left: 60%;
+  bottom: 570px;
+  width: 28%;
+}
+
+#p-sobre {
+  position: relative;
+  text-align: justify;
+  font-size: 154%;
+  bottom: 41%;
+  width: 27%;
+  left: 33%;
+  color: black;
+  font-family: cursive;
+}
+
+#agendar {
+  position: relative;
+  text-align: justify;
+  font-size: 154%;
+  bottom: 36%;
+  width: 27%;
+  left: 33%;
+  color: black;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+#p-regras {
+  position: relative;
+  right: 78%;
+  width: 115%;
+  top: 12%;
+  text-align: initial;
+  font-size: 28px;
+  color: #000;
+}
+
+#orientacoes {
+  position: relative;
+  right: 78%;
+  width: 115%;
+  top: 16%;
+  text-align: initial;
+  font-size: 28px;
+  font-weight: bold;
+  color: #000;
+}
+
+#p-orientacoes {
+  position: relative;
+  right: 78%;
+  width: 115%;
+  top: 17%;
+  text-align: initial;
+  font-size: 28px;
+  color: #000;
+}
+
+#p-info {
+  position: relative;
+  left: 36%;
+  width: 28%;
+  top: 28%;
+  font-size: 31px;
+  font-weight: bold;
+  color: #000;
+}
+
+.bemvindos {
+  position: relative;
+  top: 30%;
+  left: 50px;
+}

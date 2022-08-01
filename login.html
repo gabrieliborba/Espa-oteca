@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="estilo.css">
 </head>
 
-<body>
+<body id="fundo-login">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html"></a>
@@ -36,11 +36,11 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="cadastre.html">Cadastre-se</a>
+            <a class="nav-link" href="cadastre.html"> Cadastre-se </a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="login.html"> Login</a>
+            <a class="nav-link" href="login.html"> Login </a>
           </li>
 
           <li class="nav-item">
@@ -49,32 +49,6 @@
 
         </ul>
       </div>
-      <div>
-        <p>
-          De onde isso vem?
-          Ao contrário da crença popular, Lorem Ipsum não é simplesmente um texto aleatório. Tem raízes em uma peça da
-          literatura latina clássica de 45 aC, com mais de 2000 anos. Richard McClintock, professor de latim no
-          Hampden-Sydney College, na Virgínia, pesquisou uma das palavras latinas mais obscuras, consectetur, de uma
-          passagem de Lorem Ipsum, e percorrendo as citações da palavra na literatura clássica, descobriu a fonte
-          indubitável. Lorem Ipsum vem das seções 1.10.32 e 1.10.33 de "de Finibus Bonorum et Malorum" (Os Extremos do
-          Bem e do Mal) de Cícero, escrito em 45 aC. Este livro é um tratado sobre a teoria da ética, muito popular
-          durante o Renascimento. A primeira linha de Lorem Ipsum, "Lorem ipsum dolor sit amet..", vem de uma linha na
-          seção 1.10.32.
-
-          O pedaço padrão de Lorem Ipsum usado desde os anos 1500 é reproduzido abaixo para os interessados. As seções
-          1.10.32 e 1.10.33 de "de Finibus Bonorum et Malorum" de Cícero também são reproduzidas em sua forma original
-          exata, acompanhadas de versões em inglês da tradução de 1914 de H. Rackham.
-        </p>
-        <p>
-          O que é Lorem Ipsum?
-          Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e de impressão. Lorem Ipsum tem sido o
-          texto fictício padrão da indústria desde os anos 1500, quando um impressor desconhecido pegou uma cozinha de
-          tipos e embaralhou-a para fazer um livro de espécimes de tipos. Ele sobreviveu não apenas cinco séculos, mas
-          também o salto para a composição eletrônica, permanecendo essencialmente inalterado. Foi popularizado na
-          década de 1960 com o lançamento de folhas Letraset contendo passagens de Lorem Ipsum e, mais recentemente, com
-          software de editoração eletrônica como Aldus PageMaker, incluindo versões de Lorem Ipsum.
-        </p>
-      </div>
     </div>
   </nav>
 
@@ -82,27 +56,62 @@
   <main>
     <form>
 
+
       <div class="login">
 
-        <label for="nomesobrenome">Nome e sobrenome</label>
-        <input type="text" id="Nomesobrenome" class="input-padrao" required placeholder="Digite seu nome completo">
-
-
-        <label for="email">Email</label>
-        <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+        <h3 id="faça-login"> Faça seu login </h3>
 
 
       </div>
 
+      <label for="nomesobrenome" class="required">Nome e sobrenome</label>
+      <input type="text" id="Nomesobrenome" class="input-padrao" required placeholder="Digite seu nome completo">
+
+
+      <label for="senha" class="required">Senha</label>
+      <input type="senha" id="senha" class="input-padrao" required placeholder="******">
     </form>
   </main>
 
-
   <footer>
 
-    <img src="img/logo.png" alt="ESPAÇOTECA" width=100 height=100>
 
-    &copy; Espaçoteca - 2022
+    <div class="rodape">
+      <a href="index.html" id="logo"><img src="img/logo.png" class="logo-espaco" alt="ESPAÇOTECA" width=100
+          height=100></a>
+
+      <a href="index.html" id="wpp"><img src="img/wpp.png" class="img-1" alt="ESPAÇOTECA" width=100 height=100></a>
+      <a>
+        <p id="p-wpp">WhatsApp</p>
+      </a>
+
+
+
+      <a href="index.html" id="insta"><img src="img/insta.png" class="img-2" alt="ESPAÇOTECA" width=100 height=100> </a>
+
+      <a>
+        <p id="p-insta">Instagram</p>
+      </a>
+
+
+
+
+      <a href="index.html" id="face"><img src="img/face.png" class="img3" alt="ESPAÇOTECA" width=100 height=100></a>
+
+      <a>
+        <p id="p-face">Facebook</p>
+      </a>
+
+
+      <p id="espaco-teca"> espaçoteca</p>
+
+      <p id="site">www.espaçoteca.com.br</p>
+
+      <p id="tel"> 55 51 98469-0248 </p>
+
+
+
+    </div>
   </footer>
 
 
