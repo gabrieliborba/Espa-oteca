@@ -1,3 +1,4 @@
+
 .rodape {
   position: relative;
   top: 16px;
@@ -10,29 +11,20 @@
 
 div .carousel-inner {
   background-color: black;
+
 }
 
 .img1 {
   position: relative;
-  opacity: 82%;
+  opacity: 55%;
   /* Vê o texto mais claramente acima do background */
 }
 
-.img2 {
-  position: relative;
-  opacity: 82%;
-  /* Vê o texto mais claramente acima do background */
-}
-
-.img3 {
-  position: relative;
-  opacity: 82%;
-  /* Vê o texto mais claramente acima do background */
-}
 
 .botoes {
   position: relative;
   bottom: 3153px;
+  z-index: 9999;
 }
 
 #espaco-teca {
@@ -43,19 +35,6 @@ div .carousel-inner {
   width: 9%;
   left: 46%;
   bottom: 166px;
-}
-
-#logo {
-  position: relative;
-  right: 15%;
-  top: 210px;
-  width: 20%;
-  height: 20%;
-}
-
-body {
-  background-color: #ffffff;
-  color: black;
 }
 
 #navbarNav {
@@ -162,38 +141,42 @@ form legend {
 #p-wpp {
   position: relative;
   left: 74%;
-  top: 141px;
-  color: white;
+  top: 322px;
+  color: #000;
   width: 4%;
 }
 
-#insta {
+.img-2 {
   position: relative;
   left: 33%;
-  top: 2px;
+  top: 194px;
+  flex-wrap: wrap
 }
 
 #p-insta {
   position: relative;
   left: 81%;
-  top: 1px;
-  color: white;
+  top: 183px;
+  color: #000;
   width: 4%;
+
 
 }
 
-#face {
+.img-3 {
   position: relative;
   left: 40%;
-  bottom: 138px;
+  top: 52px;
+  flex-wrap: wrap;
 }
 
 #p-face {
   position: relative;
   left: 88%;
-  bottom: 139px;
-  color: white;
+  top: 43px;
+  color: #000;
   width: 4%;
+
 }
 
 #wpp :hover {
@@ -216,21 +199,24 @@ form legend {
   position: relative;
   height: 50px;
   width: 50px;
-  top: 46px;
+  top: 238px;
   right: 2%;
+  flex-wrap: wrap;
 }
 
 .logo-espaco {
   position: relative;
   width: 10%;
   height: 10%;
-  top: 107px;
-  right: 7%;
+  top: 350px;
+  right: 20%;
+  flex-wrap: wrap;
 }
 
 #site {
   position: relative;
   bottom: 131px;
+  color: #000;
   font-size: larger;
   left: 45%;
   width: 11%;
@@ -239,6 +225,7 @@ form legend {
 #tel {
   position: relative;
   font-size: 20px;
+  color: #000;
   bottom: 150px;
   left: 44%;
   font-family: serif;
@@ -298,8 +285,8 @@ form legend {
   color: black;
   font-size: 29px;
   font-weight: bold;
-  top: 62px;
-  right: 78%;
+  top: 84px;
+  right: 74%;
 }
 
 #foto-sobre {
@@ -315,7 +302,8 @@ form legend {
 
 #mapa {
   position: relative;
-  width: 80%;
+  width: 73%;
+  right: 4%;
   height: 380px;
   top: 40px;
   border-radius: 15px;
@@ -323,22 +311,24 @@ form legend {
 }
 
 .borda-mapa {
+
   position: relative;
-  width: 1529px;
+  width: 1401px;
   height: 384px;
   border: 5px solid #000;
   border-radius: 16px;
   display: flex;
   bottom: 940px;
   float: left;
-  left: 187px;
+  left: 174px;
+
 }
 
 #bolinha {
   position: relative;
   width: 439px;
   top: 149px;
-  right: 31%;
+  right: 32%;
   border: 4px solid rgb(244, 198, 92);
 
 }
@@ -416,7 +406,7 @@ form legend {
 
 #p-regras {
   position: relative;
-  right: 78%;
+  right: 71%;
   width: 115%;
   top: 12%;
   text-align: initial;
@@ -426,7 +416,7 @@ form legend {
 
 #orientacoes {
   position: relative;
-  right: 78%;
+  right: 71%;
   width: 115%;
   top: 16%;
   text-align: initial;
@@ -437,7 +427,7 @@ form legend {
 
 #p-orientacoes {
   position: relative;
-  right: 78%;
+  right: 71%;
   width: 115%;
   top: 17%;
   text-align: initial;
@@ -457,6 +447,23 @@ form legend {
 
 .bemvindos {
   position: relative;
-  top: 30%;
-  left: 50px;
+  left: 33%;
+  font-size: 59px;
+  color: #fff;
+  text-align: center;
+  top: 204px;
+  width: 717px;
+  line-height: 30px;
+  height: 30px;
+  z-index: 9999;
+}
+
+.p-bemvindos {
+  position: relative;
+  top: 132px;
+  font-size: 29px;
+}
+
+.regras {
+  position: relative;
 }
