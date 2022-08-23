@@ -54,10 +54,21 @@
           <li class="nav-item">
             <a class="nav-link" href="cadastrocriança.html"> Cadastro da criança </a>
           </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="agendar.html"> Agenda-se </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="pagamento.css"> Pagamento </a>
+          </li>
+
+
         </ul>
       </div>
     </div>
   </nav>
+
 
   <main>
     <form>
@@ -65,9 +76,9 @@
 
 
       <div class="cadastro">
-
         <h3>Faça seu cadastro </h3>
       </div>
+
       <label for="nomesobrenome" class="required"> Nome e sobrenome </label>
       <input type="text" id="Nomesobrenome" class="input-padrao" required placeholder="Digite seu nome completo">
 
@@ -87,45 +98,48 @@
       <input type="senha" id="senha" class="input-padrao" required placeholder="********">
 
       <label for="confirmarsenha" class="required"> Confirmar senha </label>
-      <input type="confirmarsenha" id="senha" class="input-padrao" required placeholder="********"></form>
+      <input type="confirmarsenha" id="senha" class="input-padrao" required placeholder="********">
+
 
 
       <label for="mensagem"> Mensagem </label>
       <textarea cols="63" rows="7" id="mensagem" class="input-padrao"> </textarea>
 
-      <fieldset>
-        <legend>Como prefere o nosso contato?</legend>
+    </form>
 
-        <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+    <fieldset>
+      <legend>Como prefere o nosso contato?</legend>
 
-        <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">
-          Telefone</label>
+      <label for="email" class="email"><input type="radio" name="contato" value="email" id="email"> Email</label>
 
-        <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>
-          WhatsApp</label>
+      <label for="telefone" class="telefone"><input type="radio" name="contato" value="telefone" id="telefone">
+        Telefone</label>
 
-
-      </fieldset>
-
-      <fieldset>
-        <legend class="required"> Qual horário prefere ser atendido?</legend>
-        <select>
-          <option>Manhã</option>
-          <option>Tarde</option>
-
-        </select>
-      </fieldset>
-
-
-      <label><input type="checkbox" checked> Gostaria de receber nossas novidades por email</label>
-
-      </label>
-
-      <input type="submit" value="Enviar formulário" class="enviar">
+      <label for="whatsapp" class="radio-wpp"><input type="radio" name="contato" value="whatsapp" id="wpp" checked>
+        WhatsApp</label>
 
 
 
-    
+
+
+    </fieldset>
+
+    <fieldset>
+      <legend class="required"> Qual horário prefere ser atendido?</legend>
+      <select>
+        <option>Manhã</option>
+        <option>Tarde</option>
+
+      </select>
+    </fieldset>
+
+
+    <label><input type="checkbox" checked> Gostaria de receber nossas novidades por email</label>
+
+    </label>
+
+    <input type="submit" value="Enviar formulário" class="enviar">
+
   </main>
 
 
